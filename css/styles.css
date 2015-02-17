@@ -1,25 +1,22 @@
 #dgx-donate-container
 {
-	border: none;
-	padding: 24px;
-	margin: 0 12px 12px 12px;
-	background: #f8f8f8;
-	border-radius: 8px;
+	background: #ffffff;
 }
 
 .dgx-donate-form-section
 {
-	border: 1px solid #eee;
-	background: #fff;
-	padding: 32px;
+	padding: 0px 10px 10px 10px;
+	background: #f5f5f5;
 	margin: 0 0 24px;
-	border-radius: 4px;
+	border-bottom: 1px solid #ccc;
 }
 
 .dgx-donate-form-section h2
 {
-	margin-top: 0px;
-	margin-bottom: 12px;
+	border-bottom: 2px solid #e60005;
+	margin: 0px -10px 12px -10px;
+	padding-bottom: 5px;
+	background: #ffffff;
 }
 
 .dgx-donate-form-section hr
@@ -86,17 +83,17 @@
 
 .dgx-donate-form-tribute-box, .dgx-donate-form-designated-box
 {
-	margin-top: 24px;
+	margin-top: 5px;
 	display: none; /* initially hidden */
 	border: 1px solid #f0f0f0;
 	background: #f8f8f8;
 	border-radius: 8px;
-	padding: 24px;
+	padding: 10px;
 }
 
 .dgx-donate-form-designated-box
 {
-	margin-bottom: 24px;
+	margin-bottom: 10px;
 }
 
 .dgx-donate-form-section input.dgx-donate-invalid-input
@@ -118,5 +115,16 @@
 
 .dgx-donate-pay-disabled {
 	padding: 10px;
+}
+
+#dgx-donate-form-payment-section, #dgx-donate-form-sandbox-warning
+{
+	background: #ffffff;
+	border: 0px;
+}
+
+#dgx-donate-form-payment-section p
+{
+	text-align: center;
 }
 
