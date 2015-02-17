@@ -45,7 +45,7 @@ function DgxDonateIsValidAmount(amount)
 	var matchTest = amount.match(/[^0123456789.]/g);
 	if (matchTest != null)
 	{
-		alert('Please use only numbers when specifying your donation amount.');
+		alert('Bitte verwenden Sie nur Zahlen bei der Angabe Ihres Spendenbetrags');
 		return false;
 	}
 
@@ -305,7 +305,7 @@ function DgxDonateDoCheckout()
 
 	if (!formValidates)
 	{
-		alert('Some required information is missing or invalid.  Please complete the fields highlighted in red');
+		alert('Einige Pflichtinformationen fehlen oder sind ungültig. Bitte füllen Sie die rot markierten Felder aus.');
 		DgxDonateUpdateControls( { donateButton: true, ajaxSpinner: false } );
 		return false;
 	}
@@ -386,7 +386,7 @@ function DgxDonateAjaxError( event, jqxhr, settings, exception ) {
 	DgxDonateUpdateControls( { donateButton: true, ajaxSpinner: false } );
 
 	// Display the error
-	alert ( "An Ajax error occurred while requesting the resource - " + settings.url + " - No donation was completed.  Please try again later.");
+	alert ( "Beim Anfordern der Resource - " + settings.url + " ist ein AJAX - Fehler aufgetreten - Ihre Spende wurde nicht durchgeführt. Bitte versuchen Sie es später noch einmal.");
 
 	return false;
 }

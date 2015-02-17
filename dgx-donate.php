@@ -731,7 +731,7 @@ function dgx_donate_get_billing_section( $form_content ) {
 
 		$output = "";
 		$output .= "<div class='dgx-donate-form-section' id='dgx-donate-form-address-section'>\n";
-		$output .= "<h2>" . esc_html__( 'Donor Address', 'dgx_donate' ) . "</h2>\n";
+		$output .= "<h2>" . esc_html__( 'Ihre Adresse', 'dgx_donate' ) . "</h2>\n";
 		
 		$output .= "<p>";
 		$output .= "<label for='_dgx_donate_donor_address'>" . esc_html__( 'Address:', 'dgx-donate' ) . " </label>";
